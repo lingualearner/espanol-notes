@@ -1,0 +1,100 @@
+\documentclass[grid,avery5371]{article}
+\usepackage[most]{tcolorbox}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{verse}
+\settowidth{\versewidth}{It lies behind stars and under hills,}
+\addtolength{\versewidth}{2em}
+\usepackage{xcolor}
+
+
+
+\begin{document}
+\newcommand{\frase}[1]{
+    \textbf{\textcolor{red}{#1}}
+}
+\newcommand{\frasedos}[1]{
+    \textbf{\textcolor{cyan}{#1}}
+}
+\newcommand{\frasetres}[1]{
+    \textbf{\textcolor{teal}{#1}}
+}
+
+\newcommand{\tipo}[1]{
+    \fcolorbox{yellow}{yellow!50}{#1}
+}
+\newcommand{\subtipo}[1]{
+    \fcolorbox{yellow}{yellow!20}{#1}
+}
+\newcommand{\tipodos}[1]{
+    \fcolorbox{cyan!50}{cyan!10}{#1}
+}
+\newcommand{\tipotres}[1]{
+    \fcolorbox{teal}{teal!20}{#1}
+}
+
+\newcommand{\ejemplobox}[1]{
+\begin{tcolorbox}
+[breakable,colback=white,colframe=cyan,width=\dimexpr\textwidth+12mm\relax,enlarge left by=-6mm]
+#1
+\end{tcolorbox}
+
+}
+%---------------------------------
+
+\section{Mi Hija}
+\begin{enumerate}
+\item  Mi hija tiene 3 años, es \tipo{dramática,habladora, alegre y muy cariñosa} conmigo.
+\item Ella es llena de energía y muy divertida. Le encanta bailar, cantar y actuar.
+\item \tipo{Asiste a clases de baile} y es \tipo{una pequeña actriz dramática} que nos encanta ver
+\item Le encanta jugar muchas juegas con sus padres y abuelos. Por ejemplo - bate y pelota.
+\item También disfruta pintar con su abuelo.
+\item Es una niña \tipo{consentida} pero \tipo{encantadora}.
+
+\end{enumerate}
+
+
+\section{Mi Madre}
+\begin{enumerate}
+\item  Mi madre es un \tipo{huracán de energía}.
+\item Con sus 60 años, parece tener una \tipo{batería infinita}. 
+\item Es una mujer \tipo{llena de vida}, con \tipo{una risa contagiosa} que \tipodos{ilumina cualquier espacio}.
+\item  \tipo{Empresaria exitosa} e independiente, es un \tipo{ejemplo inspirador} para todos.
+\item \tipodos{A pesar de} ser tradicional y amar las festividades, también es moderna y \tipo{sigue las tendencias}
+\item ¡Una \tipo{auténtica fuerza de la naturaleza}!
+\end{enumerate}
+
+\section{Mi Padre}
+\begin{enumerate}
+\item Con 59 años, conserva una energía \tipo{envidiable}.
+\item \tipodos{Es un ser} humano excepcionalmente amable y siempre \tipodos{dispuesto a ayudar}. 
+\item Su \tipodos{pasión por las plantas} ha convertido su escuella en un \tipo{pequeño paraíso} verde.
+\item Posee una habilidad innata para el dibujo, capaz de plasmar cualquier imagen con asombrosa rapidez.
+\item \tipo{Además}, su talento para la caligrafía es \tipodos{digno de admiración}, especialmente en las hermosas tarjetas que \tipo{crea para} cada celebración.
+\item Un a\tipodos{pasionado conductor}, ha \tipo{recorrido} los rincones más \tipodos{desafiantes} de nuestro país.
+\item \tipo{Actualmente} dedica su vida a la \tipodos{enseñanza} en un colegio público, combinando su amor por compartir \tipodos{conocimientos} con una \tipodos{creatividad inagotable}.
+\item Es sencillo, pero su espíritu artístico lo hace único.
+\end{enumerate}
+
+\section{Mi Hermana}
+\begin{enumerate}
+\item Vive en \tipodos{la vibrante} Londres, casada con un \tipo{amoroso compañero} y \tipodos{rodeada de} dos adorables perritos, Suki y Leia.
+\item Con su talento como \tipo{diseñadora gráfica}, crea mundos mágicos \tipodos{a través de} su arte.
+\item Es una \tipo{apasionada viajera}, encuentra paz en el yoga y su mayor alegría es compartir momentos con \tipodos{sus fieles compañeros} caninos.
+\item Su \tipo{sensibilidad y creatividad} la \tipodos{convierten} en una persona única y fascinante.
+\end{enumerate}
+
+
+\section{Mi Esposa}
+\begin{enumerate}
+\item Mi esposa es una mujer \tipo{extraordinaria}.
+\item Fuerte, cariñosa y \tipodos{llena de vida}, tiene 34 años. 
+\item \tipodos{Adora la libertad} que \tipodos{le brinda} la bicicleta y su \tipo{espíritu aventurero} es \tipo{contagioso}. 
+\item \tipodos{Le apasiona} el festival de Navaratri y \tipo{disfruta} al máximo bailando bajo los colores del viento. 
+\item Aunque es una mujer \tipodos{de pocas palabras}, sus acciones hablan por sí solas, \tipodos{demostrando su gran corazón} y su \tipodos{carácter decidido}.
+\end{enumerate}
+
+
+
+\end{document}

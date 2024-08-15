@@ -1,0 +1,131 @@
+\documentclass[grid,avery5371]{article}
+\usepackage[most]{tcolorbox}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{verse}
+\settowidth{\versewidth}{It lies behind stars and under hills,}
+\addtolength{\versewidth}{2em}
+\usepackage{xcolor}
+
+
+
+\begin{document}
+\newcommand{\frase}[1]{
+    \textbf{\textcolor{red}{#1}}
+}
+\newcommand{\frasedos}[1]{
+    \textbf{\textcolor{cyan}{#1}}
+}
+\newcommand{\frasetres}[1]{
+    \textbf{\textcolor{teal}{#1}}
+}
+
+\newcommand{\tipo}[1]{
+    \fcolorbox{yellow}{yellow!50}{#1}
+}
+\newcommand{\subtipo}[1]{
+    \fcolorbox{yellow}{yellow!20}{#1}
+}
+\newcommand{\tipodos}[1]{
+    \fcolorbox{cyan!50}{cyan!10}{#1}
+}
+\newcommand{\tipotres}[1]{
+    \fcolorbox{teal}{teal!20}{#1}
+}
+
+\newcommand{\ejemplobox}[1]{
+\begin{tcolorbox}
+[breakable,colback=white,colframe=cyan,width=\dimexpr\textwidth+12mm\relax,enlarge left by=-6mm]
+#1
+\end{tcolorbox}
+
+}
+%---------------------------------
+
+\section{Ver}
+Mi hija es una joven [edad] años, [adjetivo de personalidad]. Le encanta [intereses]. Es muy [cualidad positiva]. También le gusta [hobbies].
+
+
+
+
+\subsection{Normal Usage - to see}
+
+\ejemplobox{
+    \tipo{Yo veo} una pelicula \dotfill \tipodos{I see} a movie\\
+    \tipo{No veo} nada \dotfill \tipodos{I don't see} anything\\
+}
+\subsection{Other Usages}
+
+\ejemplobox{
+\begin{enumerate}
+
+    \item \textbf{visitar}
+        \tipo{Voy a ver} a mi abuela. \dotfill
+    \tipodos{Going to see} my grandmother
+    \item \textbf{entender}\tipo{No veo} la diferencia  \dotfill \tipodos{I don't see } any difference
+    \item \textbf{entender} ¿\tipo{Ves} lo que quiero decir? \dotfill \tipodos{Do you see} what I want to say? 
+    \item \textbf{considerar} \tipo{Veremos} qué pasa. \dotfill \tipodos{We will see} what happens.
+    \item \textbf{desear} \tipo{Quiero ver} bailar a mi hija. \dotfill \tipodos{I want to see} dance of my daughter
+    \item  \textbf{con cómo}  \tipo{Voy a ver cómo} hago esto. . . .\hfill \tipodos{I am going to see how} I do this
+    \item \textbf{con que} \tipo{Veo que} estás cansado \dotfill \tipodos{I see that} you are tired
+    \item \textbf{experimentar} \tipo{Quiero ver} el mundo. \dotfill \tipodos{I want to experience} the world.
+\end{enumerate}
+}
+
+\section{Quedar}
+Quedar is a Spanish verb that can have multiple meanings depending on the context. Its core meaning is related to "remaining" or "being left," but it expands to encompass a variety of situations.
+\\
+\subsection{To express time left}
+To express time left, we use ,\\
+
+\begin{center} \tipo{Quedan} + \tipotres{tiempo} \end{center}
+\begin{enumerate}
+    \item \tipo{Quedan} cinco minutos \dotfill 5 minutes \tipodos{left} \\
+\end{enumerate}
+
+\subsection{Agree , meet, arrange}
+To arrange or agree with an arrangement, Quedamos is used. Bellow is the formula for it. 
+\begin{center} \tipo{Quedamos} + \tipodos{preposition}+ \tipotres{lugar/tiempo}\end{center}
+
+\begin{enumerate}
+    \item \tipo{Quedamos en} encontrarnos en el parque.\dotfill \\
+    \dotfill \tipodos{We agreed} to meet at the park.\\
+    \item ¿\tipo{Quedamos} para tomar un café mañana? \dotfill \\
+    \tipodos{Shall we meet} for coffee tomorrow \\
+    \item \tipo{Quedamos} en llamarnos después del trabajo. \dotfill \\
+    \tipodos{We agreed} to call after the work\\
+    \item ¿Qué te parece si \tipo{quedamos} este fin de semana? \dotfill \\How about we \tipodos{meet} this weekend?
+\end{enumerate}
+
+\subsection{is located in}
+
+
+\begin{center} \tipotres{A} + \tipo{queda} + \tipodos{preposition} + \tipotres{B} \end{center}
+
+\begin{enumerate}
+    \item El parque \tipo{queda} \tipotres{detrás} del colegio. \dotfill \\  The park \tipodos{is located} \tipotres{behind} the college
+\end{enumerate}
+
+\subsection{To Fit or Suit }
+\begin{center} \tipotres{reflexivo} + \tipo{queda} + \tipodos{adverb} + \tipotres{B} \end{center}
+
+\begin{enumerate}
+    \item Los zapatos \tipo{me quedan} \tipotres{mal}\\
+    The shoes \tipodos{fits me} bad \\
+    \item Este abrigo no \tipo{me queda} \tipotres{bien}.\\
+    The coat does not \tipodos{fit me} good. 
+\end{enumerate}
+
+\subsection{To Become or End Up}
+    \begin{center} \tipotres{reflexivo} + \tipo{queda} + \tipodos{adjective} \end{center}
+
+\begin{enumerate}
+    \item \tipo{Quedé} sorprendido. \dotfill \tipodos{I was} surprised !\\
+    \item \tipo{Quedé} pasmado por la forma. \dotfill \tipodos{I was} stunned! by the thing\\
+    \item \tipo{Quedé} cansado después del ejercicio. \dotfill  \tipodos{I was} tired after the excercise\\
+\end{enumerate}
+
+
+
+\end{document}
